@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Slider</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Icon -->
+    <link rel="stylesheet" href="vendor/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="vendor/Icon-font-7/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+    <link rel="stylesheet" href="vendor/Icon-font-7/pe-icon-7-stroke/css/helper.css">
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+      <!-- Style Link -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/media.css">
+  </head>
+
+  <body>
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide ">
+          <section class="slider">
+            <div class="container">
+              <div class="row">
+                <!-- Slider image -->
+                <div class="col-lg-5 col-md-6">
+                  <div class="slider_img">
+                    <img class="img-fluid" src="images/html.jpg" alt="">
+                  </div>
+                </div>
+      
+                <!-- Slider_content -->
+                <div class="offset-lg-1 col-lg-6 col-md-6">
+                  <div class="slider_content">
+                    <h1>HTML_5</h1>
+                    <hr>
+                    <p> 
+                      What Is HTML? Hypertext Markup Language Basics Explained
+                      HTML, or HyperText Markup Language, allows web users can create and structure sections,  is not considered a programming language as it can’t create dynamic functionality.</p>
+                    <a href="#" class="btn au_border ">Learn More <span><i class="fas fa-long-arrow-alt-right"></i></span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div> 
+        <div class="swiper-slide ">
+          <section class="slider">
+            <div class="container">
+              <div class="row">
+                <!-- Slider image -->
+                <div class="col-lg-5 col-md-6">
+                  <div class="slider_img">
+                    <img class="img-fluid" src="images/pic3.jpg" alt="">
+                  </div>
+                </div>
+      
+                <!-- Slider_content -->
+                <div class="offset-lg-1 col-lg-6 col-md-6">
+                  <div class="slider_content">
+                    <h1>html_5</h1>
+                    <hr>
+                    <p> 
+                      What Is HTML? Hypertext Markup Language Basics Explained
+                      HTML, or HyperText Markup Language, allows web users can create and structure sections,  is not considered a programming language as it can’t create dynamic functionality.</p>
+                    <a href="#" class="btn au_border ">Learn More <span><i class="fas fa-long-arrow-alt-right"></i></span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div> 
+        <div class="swiper-slide ">
+          <section class="slider">
+            <div class="container">
+              <div class="row">
+                <!-- Slider image -->
+                <div class="col-lg-5 col-md-6">
+                  <div class="slider_img">
+                    <img class="img-fluid" src="images/css.jpg" alt="">
+                  </div>
+                </div>
+      
+                <!-- Slider_content -->
+                <div class="offset-lg-1 col-lg-6 col-md-6">
+                  <div class="slider_content">
+                    <h1>CSS_5</h1>
+                    <hr>
+                    <p> 
+                      Cascading Style Sheets Level 3 (CSS3) is the iteration of the CSS standard used in the styling and formatting of Web pages. CSS3 incorporates the CSS2 standard with some changes and improvements</p>
+                    <a href="#" class="btn au_border ">Learn More <span><i class="fas fa-long-arrow-alt-right"></i></span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div> 
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        direction: "vertical",
+        slidesPerView: 1,
+        spaceBetween: 30,
+        mousewheel: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+  </body>
+</html>
